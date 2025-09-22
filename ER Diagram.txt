@@ -1,0 +1,5 @@
+                     ER Diagram                               
+                            
+                                    Members (1)───< Loans >───(1) Books (M)───(1) Categories
+                                                      │
+                                                      └───< Book_Authors >───(M) Authors
