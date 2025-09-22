@@ -1,0 +1,27 @@
+Library Management Database
+***:-  Overview
+
+This project designs a Library Management System database schema.
+The schema covers essential entities such as Members, Books, Authors, Categories, and Loans, along with their relationships.
+
+*** Entities & Relationships ****
+
+Members → People who borrow books.
+
+Books → Each book in the library (identified by ISBN).
+
+Authors → Writers of books (many-to-many relationship with Books).
+
+Categories → Genre or classification of books.
+
+Loans → Records of which member borrowed which book.
+
+🔗 Relationships :-
+
+One Member can borrow many Books → via Loans.
+
+A Book belongs to one Category.
+
+A Book can have multiple Authors → handled via Book_Authors junction table.
+
+One Loan links a Member with a Book.
